@@ -1,0 +1,23 @@
+{
+  "id": "monitorConfig2",
+  "servers": [
+    {
+      "server": "github.com",
+      "tcp": {
+        "port": 443
+      },
+      "services": ["tcp"],
+      "interval": 20
+    },
+    {
+      "server": "stackoverflow.com",
+      "tcp": {
+        "port": 443
+      },
+      "services": ["tcp"],
+      "interval": 25
+    }
+  ],
+  "ip": "127.0.0.1",
+  "port": 24681
+}

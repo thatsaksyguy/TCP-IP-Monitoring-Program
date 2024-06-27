@@ -1,0 +1,23 @@
+{
+  "id": "monitorConfig1",
+  "servers": [
+    {
+      "server": "oregon.com",
+      "tcp": {
+        "port": 443
+      },
+      "services": ["tcp"],
+      "interval": 10
+    },
+    {
+      "server": "facebook.com",
+      "tcp": {
+        "port": 443
+      },
+      "services": ["tcp"],
+      "interval": 15
+    }
+  ],
+  "ip": "127.0.0.1",
+  "port": 24680
+}
